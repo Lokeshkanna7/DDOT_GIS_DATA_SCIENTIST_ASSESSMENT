@@ -1,0 +1,33 @@
+{
+  "rows": 5378,
+  "unique_tracking_numbers": 5378,
+  "invalid_approval_dates": 0,
+  "business_day_policy": "Exclude application calendar date; include approval date if weekday and not DC holiday; same-day equals zero",
+  "holiday_dates": {
+    "2025-10-13": "Indigenous Peoples Day",
+    "2025-11-11": "Veterans Day",
+    "2025-11-27": "Thanksgiving Day",
+    "2025-12-25": "Christmas Day",
+    "2026-01-01": "New Years Day",
+    "2026-01-19": "Martin Luther King Jr. Day",
+    "2026-02-16": "Washingtons Birthday",
+    "2026-04-16": "DC Emancipation Day",
+    "2026-05-25": "Memorial Day",
+    "2026-06-19": "Juneteenth",
+    "2026-07-03": "Independence Day observed",
+    "2026-09-07": "Labor Day"
+  },
+  "mean_business_days": 11.40014875418371,
+  "median_business_days": 1.0,
+  "p90_business_days": 40.0,
+  "over_90_business_days_count": 107,
+  "existing_days_to_approve_exact_match_count": 3320,
+  "existing_days_to_approve_disagree_count": 2058,
+  "status_counts": {
+    "Issued": 2967,
+    "Permit Expired": 2408,
+    "Suspended": 2,
+    "Revoked": 1
+  },
+  "warning": "Preliminary computed metric; validate business endpoint and counting convention with DDOT permit examples prior to final dashboard."
+}

@@ -1,0 +1,25 @@
+{
+  "input_permits": 5378,
+  "unique_tracking_numbers": 5378,
+  "activity_categories": {
+    "Excavation": 4538,
+    "Multiple activity categories": 399,
+    "Over Head Work": 202,
+    "Paving": 97,
+    "Fixture": 94,
+    "Projections": 26,
+    "Landscaping": 20,
+    "PS Rental": 1,
+    "Mega Projects": 1
+  },
+  "multi_activity_permits": 399,
+  "unmapped_prefixes": [],
+  "overall_average_preliminary_business_days": 11.40014875418371,
+  "warnings": [
+    "Approval end date (LastApprovalDate) and same-day counting convention require confirmation from sample DDOT permit histories.",
+    "Category is derived from all semicolon-delimited prefixes in TypeDetailNames. Multi-category permits are assigned to one separate group to prevent double-counting.",
+    "FY26 eligibility is based on ApplicationDate, IssueDate and PermitType=0; verify that new permit also meets DDOT definition for renewals/reissues.",
+    "As of extraction, statuses may differ from status at issuance.",
+    "The FY26 population includes permits extracted on 2026-10-14 and may change with source refreshes."
+  ]
+}

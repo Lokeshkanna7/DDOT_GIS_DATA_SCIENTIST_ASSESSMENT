@@ -1,0 +1,9 @@
+{
+  "permit_count": 5378,
+  "days_to_approve_equals_calendar_day_difference": 4939,
+  "days_to_approve_differs_from_calendar_day_difference": 439,
+  "days_to_approve_equals_computed_business_days": 3320,
+  "calendar_matches_business_diff": 1619,
+  "sample_count": 37,
+  "caution": "Do not assume that source DaysToApprove is a business-day metric. Differences with calendar days can reflect timestamps, rounding, or differing business definitions. Approval endpoint and policy still need validation."
+}

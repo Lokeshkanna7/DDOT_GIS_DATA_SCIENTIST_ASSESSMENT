@@ -1,0 +1,23 @@
+{
+  "purpose": "Step 1 review, not final business-day results",
+  "raw_rows": 28277,
+  "unique_tracking_numbers": 5378,
+  "exact_repeats_excluding_OBJECTID": 22808,
+  "distinct_records_except_OBJECTID": 5469,
+  "permits_with_multiple_wards": 36,
+  "raw_row_weighted_DaysToApprove_mean": 26.3462,
+  "permit_level_DaysToApprove_mean": 16.3916,
+  "permit_level_DaysToApprove_median": 1.0,
+  "unique_permit_statuses": {
+    "Issued": 2967,
+    "Permit Expired": 2408,
+    "Suspended": 2,
+    "Revoked": 1
+  },
+  "missing_key_dates": {
+    "ApplicationDate": 0,
+    "LastApprovalDate": 0,
+    "IssueDate": 0
+  },
+  "caveat": "DaysToApprove is an existing source metric, not yet independently validated against DC business holidays."
+}

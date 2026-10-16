@@ -1,0 +1,53 @@
+{
+  "source": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_APPS/DDOT_TOPS/MapServer/23/query",
+  "filter_sql": "ApplicationDate >= TIMESTAMP '2025-10-01 00:00:00' AND IssueDate >= TIMESTAMP '2025-10-01 00:00:00' AND IssueDate < TIMESTAMP '2026-10-01 00:00:00' AND PermitType = 0",
+  "extraction_date_utc": "2026-10-14T21:01:41.854021+00:00",
+  "record_count": 28277,
+  "unique_permit_numbers": 5378,
+  "duplicate_permit_number_rows": 25017,
+  "missing_application_dates": 0,
+  "missing_approval_dates": 0,
+  "missing_issue_dates": 0,
+  "status_counts": {
+    "Issued": 16599,
+    "Permit Expired": 11666,
+    "Suspended": 11,
+    "Revoked": 1
+  },
+  "permit_type_description_counts": {
+    "New": 28277
+  },
+  "top_type_detail_values": {
+    "Excavation; Boring Test Pit (Each Add'l), Excavation; Boring Test Pit (Single), Excavation; Repair Water Service Lateral": 22432,
+    "Excavation; Repair Gas Main Line": 631,
+    "Excavation; Fire Hydrant(s), Excavation; Multiple House Connections (Utility Co. ONLY), Excavation; Valves (Excavation), Excavation; Water Lateral Conn over 2\" Pipe (Trench), Excavation; Water ML (Trench)": 470,
+    "Excavation; Gas Connection (Trench)": 430,
+    "Excavation; Gas Main Line (Trench), Excavation; Multiple House Connections (Utility Co. ONLY), Excavation; Repair Gas Main Line": 271,
+    "Excavation; Gas Service Abandonment": 242,
+    "Excavation; Multiple House Connections (Utility Co. ONLY)": 196,
+    "Excavation; Electric Connection (Trench)": 182,
+    "Excavation; Repair Gas Service (excavation)": 146,
+    "Excavation; Cathodic Protection": 144,
+    "Excavation; Multiple House Connections (Utility Co. ONLY), Excavation; Valves (Excavation), Excavation; Water ML (Trench)": 107,
+    "Excavation; Boring Test Pit (Each Add'l), Excavation; Boring Test Pit (Single)": 105,
+    "Excavation; Electric ML Conduit (Trench)": 101,
+    "Excavation; Gas Main Line (Trench), Excavation; Gas Service Abandonment, Excavation; Multiple House Connections (Utility Co. ONLY), Excavation; Repair Gas Main Line": 98,
+    "Excavation; Fire Hydrant(s), Excavation; Multiple House Connections (Utility Co. ONLY), Excavation; Repair Water Main Line, Excavation; Valves (Excavation), Excavation; Water Lateral Conn over 2\" Pipe (Trench)": 91,
+    "Excavation; Repair Water Service Lateral": 83,
+    "Over Head Work; Pole Installation (each add'l), Over Head Work; Pole Installation (single or first one), Over Head Work; Pole Removal (each add'l), Over Head Work; Pole Removal (single or first one), Over Head Work; String Electrical Wire": 75,
+    "Over Head Work; Pole Installation (single or first one), Over Head Work; Pole Removal (single or first one)": 56,
+    "Excavation; Fire Hydrant(s), Excavation; Valves (Excavation), Excavation; Water Lateral Conn over 2\" Pipe (Trench), Excavation; Water ML (Trench), Excavation; Multiple House Connections (Utility Co. ONLY)": 51,
+    "Excavation; Repair Electric Service (excavation)": 47,
+    "Excavation; Repair Water Main Line": 42,
+    "Fixture; Street Fixture or Furniture (Exception)": 42,
+    "Excavation; Manhole Installation, Excavation; Telecom ML Conduits (Trench)": 41,
+    "Excavation; Gas Main Line (Trench), Excavation; Gas Main/Line Abandonment": 40,
+    "Paving; Alley(s) (porous/pervious), Paving; Mill and Overlay, Excavation; Storm Lateral Conn over 4\" (Trench), Mega Projects; DC Water Combined Sewer Proj": 38,
+    "Excavation; Gas Main Line (Trench)": 37,
+    "Fixture; Fence to 42\" (Open Design)": 36,
+    "Excavation; Boring Test Pit (Each Add'l), Excavation; Repair Water Service Lateral, Excavation; Boring Test Pit (Single)": 36,
+    "Excavation; Clean Out (Sewer), Excavation; Sewer Lateral Connection to 4\" (Trench), Excavation; Water Lateral Connection to 2\" (Trench), Excavation; Water Meter Pit (to 2\" pipe)": 35,
+    "Over Head Work; Aerial Electrical Connection": 34
+  },
+  "warning": "Preliminary extract, not the final approval-duration population. Date-field interpretations and business-day calculation require verification."
+}
